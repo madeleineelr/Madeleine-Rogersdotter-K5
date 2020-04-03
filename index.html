@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
 </head>
-<body>
+<body class="light">
     <main>
         <header>
             <h1>HEADER</h1>
@@ -15,14 +15,20 @@
                 <ul>
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Link</a></li>
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Link</a></li>
-                    <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Link</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="#">Theme</a>
+                        <ul class="dropdown">
+                          <li class="dropdown-item"><a id="light" href="#">light</a></li>
+                          <li class="dropdown-item"><a id="dark" href="#">dark</a></li>
+                        </ul>
+                    </li>
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Link</a></li>
                     <li><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Link</a></li>
                 </ul>
             </nav>
         </header>
         <div class="wrapper">
-            <header class="wide-panel"><h2>Header</h2></header>
+            <div class="wide-panel"><h2>Header</h2></div>
             <div class="tall-panel"><img src="https://picsum.photos/190/320" alt="Random photo"></div>
             <div><img src="https://picsum.photos/190/120" alt="Random photo"></div>
             <div class="tall-panel"><img src="https://picsum.photos/190/320" alt="Random photo"></div>
@@ -32,7 +38,7 @@
             <div><img src="https://picsum.photos/190/120" alt="Random photo"></div>
             <div><img src="https://picsum.photos/190/120" alt="Random photo"></div>
             <div><img src="https://picsum.photos/190/120" alt="Random photo"></div>
-            <footer class="wide-panel"><h2>Footer</h2></footer>
+            <div class="wide-panel"><h2>Footer</h2></div>
         </div>
     </main>
 </body>
