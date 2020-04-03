@@ -49,6 +49,7 @@ li {
 a {
     text-decoration: none;
     font-size: 1.2em;
+    color: currentColor;
 }
 
 .wrapper {
@@ -58,6 +59,7 @@ a {
     padding: 0;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-auto-rows: minmax(200px, 1fr);
+    grid-gap: 5%;
 }
   
 .tall-panel {
