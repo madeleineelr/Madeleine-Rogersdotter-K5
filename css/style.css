@@ -31,6 +31,11 @@ nav {
     color: var(--text);
 }
 
+img {
+    filter: saturate(0);
+    transition: transform .2s;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,6 +55,12 @@ a {
     text-decoration: none;
     font-size: 1.2em;
     color: currentColor;
+}
+
+img:hover {
+    filter:saturate(100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2);
 }
 
 .wrapper {
