@@ -24,6 +24,15 @@ header {
     text-align: center;
 }
 
+footer {
+    padding: 2em;
+    clip-path: polygon(0% 50%, 0px 100%, 100% 100%, 100% 50%, 50% 0%, 0% 50%);
+    background: var(--bg-nav);
+    margin-top: 1em;
+    padding-top: 3.5em;
+    text-align: center;
+}
+
 nav {
     height: 70px;
     width: 100%;
@@ -75,7 +84,6 @@ img:hover {
     padding: 0;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-auto-rows: minmax(200px, 1fr);
-    grid-gap: 5%;
 }
   
 .tall-panel {
