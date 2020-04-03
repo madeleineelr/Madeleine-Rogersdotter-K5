@@ -4,6 +4,10 @@ const body = document.body;
 
 const theme = localStorage.getItem('theme');
 
+if (theme) {
+  body.classList.add(theme);
+}
+
 darkButton.onclick = () => {
   body.classList.replace('light', 'dark');
   localStorage.setItem('theme', 'dark');
